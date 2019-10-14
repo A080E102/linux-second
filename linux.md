@@ -76,6 +76,7 @@ pwd為print name of current/working directory的縮寫
 #pwd -L
 ```
 bin==binary 執行檔
+cd==Change Directory 變換目錄
 
 root@kali:/# cd bin
 root@kali:/bin# pwd -L
@@ -83,3 +84,7 @@ root@kali:/bin# pwd -L
 root@kali:/bin# pwd -P
 /usr/bin
 ```
+
+### 建目錄 mkdir 與刪除目錄 rmdir
+
+目錄===directory ===dir
