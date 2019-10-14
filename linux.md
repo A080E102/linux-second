@@ -68,3 +68,18 @@ pwd為print name of current/working directory的縮寫
 ## 3. 目錄連接鏈結時，輸出連接路徑
 
 #pwd -L
+
+2. 顯示出實際的工作目錄，而非連結檔本身的目錄名
+#pwd -P
+
+3. 目錄連接鏈結時，輸出連接路徑
+#pwd -L
+```
+bin==binary 執行檔
+
+root@kali:/# cd bin
+root@kali:/bin# pwd -L
+/bin
+root@kali:/bin# pwd -P
+/usr/bin
+```
